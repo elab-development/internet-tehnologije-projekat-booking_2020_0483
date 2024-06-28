@@ -5,6 +5,8 @@ import ListingCard from "@/app/components/listings/ListingCard";
 import EmptyState from "@/app/components/EmptyState";
 import getCurrentUser from "@/app/actions/getCurrentUser";
 
+export const dynamic = 'force-dynamic';
+
 interface PageProps {
     searchParams: IListingsParams
 }
